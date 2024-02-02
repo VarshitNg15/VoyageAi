@@ -10,7 +10,7 @@ from twilio.rest import Client
 import wikipedia
 import requests  # Import the requests module
 
-owm_api_key = '154095b6887f7102b41025caecc88cb7'
+owm_api_key = #Your OWM API key
 owm = pyowm.OWM(owm_api_key)
 
 engine = pyttsx3.init('sapi5')
@@ -56,7 +56,7 @@ def open_spotify_and_play(song_name):
 
 
 def read_news_headlines(topic):
-    newsapi = NewsApiClient(api_key='73149371ad72411f860e9642538e06eb')  # Replace with your News API key
+    newsapi = NewsApiClient(api_key=#newsapi API Key)  
     headlines = newsapi.get_top_headlines(q=topic, language='en')
 
     print("News API Response:", headlines)  # Add this line for debugging
