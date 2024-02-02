@@ -6,7 +6,7 @@ function handleLogin(event) {
     var errorMessage = document.getElementById('error-message');
 
     // Check if the entered username and password match the expected values
-    if (username === 'Varshith' && password === 'Varshith') {
+    if (username === /*username*/ && password === /*password*/) {
         // Authentication successful, redirect to pbl.html
         window.location.href = 'http://127.0.0.1:5000';
     } else {
